@@ -19,7 +19,7 @@ var Observable = {
         }
     })(),
     unSubscribe: function (type, fn) {
-        function isEmpty(object) {                          //#1
+        function isEmpty(object) {                         
             for (var prop in object) {
                 return false;
             }
